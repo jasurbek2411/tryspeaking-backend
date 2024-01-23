@@ -9,8 +9,8 @@ export async function getUsers() {
 
 export async function createUser(data: IUser) {
   try {
-    const user = await db.insert(users).values(data)
-    return user
+    // const user = await db.insert(users).values(data)
+    // return user
   } catch (error) {
     const e = error as Error;
     console.log(e.message);
