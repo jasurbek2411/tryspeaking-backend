@@ -1,6 +1,6 @@
-import { MODULES_ROUTES } from '../../config/routes.config';
-import { Router } from 'express';
-import { GET } from './controller';
+import { MODULES_ROUTES } from "../../config/routes.config";
+import { Router } from "express";
+import { GET } from "./controller";
 
 const router = Router();
 
