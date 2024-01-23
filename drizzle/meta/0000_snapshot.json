@@ -33,12 +33,8 @@
           "name": "auth_otp_user_id_users_id_fk",
           "tableFrom": "auth_otp",
           "tableTo": "users",
-          "columnsFrom": [
-            "user_id"
-          ],
-          "columnsTo": [
-            "id"
-          ],
+          "columnsFrom": ["user_id"],
+          "columnsTo": ["id"],
           "onDelete": "no action",
           "onUpdate": "no action"
         }
@@ -48,9 +44,7 @@
         "auth_otp_id_unique": {
           "name": "auth_otp_id_unique",
           "nullsNotDistinct": false,
-          "columns": [
-            "id"
-          ]
+          "columns": ["id"]
         }
       }
     },
@@ -74,9 +68,7 @@
       "indexes": {
         "name_idx": {
           "name": "name_idx",
-          "columns": [
-            "full_name"
-          ],
+          "columns": ["full_name"],
           "isUnique": false
         }
       },
@@ -86,9 +78,7 @@
         "users_id_unique": {
           "name": "users_id_unique",
           "nullsNotDistinct": false,
-          "columns": [
-            "id"
-          ]
+          "columns": ["id"]
         }
       }
     }
